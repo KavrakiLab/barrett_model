@@ -1,5 +1,5 @@
 <robot name="wam"
-  xmlns:xacro="http://www.ros.org/wiki/xacro">
+  xmlns:xacro="http://ros.org/wiki/xacro">
 
   <!-- Includea all the WAM stuff -->
   <xacro:include filename="$(find barrett_model)/models/wam_top.urdf.xacro"/>
