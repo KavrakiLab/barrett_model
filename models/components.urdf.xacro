@@ -106,7 +106,7 @@
       <child link="${prefix}/shoulder_pitch_link"/>
       <origin xyz="0 0 0" rpy="${-PI/2} 0 0"/>
       <axis xyz="0 0 1"/>
-      <limit effort="60" lower="-1.985" upper="1.985" velocity="2.0"/>
+      <limit effort="60" lower="-1.972" upper="1.972" velocity="2.0"/>
       <dynamics damping="${0.5*b}" friction="0"/>
     </joint>
     <gazebo reference="${prefix}/shoulder_pitch_joint">
@@ -144,7 +144,7 @@
       <child link="${prefix}/upper_arm_link"/>
       <origin xyz="0 0 0" rpy="${PI/2} 0 0"/>
       <axis xyz="0 0 1"/>
-      <limit effort="45" lower="-2.8" upper="2.8" velocity="2.0"/>
+      <limit effort="45" lower="-2.74" upper="2.74" velocity="2.0"/>
       <dynamics damping="${1.5*b}" friction="0"/>
     </joint>
     <gazebo reference="${prefix}/shoulder_yaw_joint">
@@ -183,7 +183,7 @@
       <child link="${prefix}/forearm_link"/>
       <origin xyz="0.045 0 0.55" rpy="${-PI/2} 0 0"/>
       <axis xyz="0 0 1"/>
-      <limit effort="30" lower="-0.9" upper="${PI}" velocity="2.00"/>
+      <limit effort="30" lower="-0.87" upper="${PI}" velocity="2.00"/>
       <dynamics damping="${0.8*b}" friction="0"/>
     </joint>
     <gazebo reference="${prefix}/elbow_pitch_joint">
@@ -236,7 +236,7 @@
       <child link="${prefix}/wrist_yaw_link"/>
       <origin xyz="-0.045 -0.3 0" rpy="${PI/2} 0 0"/>
       <axis xyz="0 0 1"/>
-      <limit effort="10" lower="-4.55" upper="1.8" velocity="2.0"/>
+      <limit effort="10" lower="-4.55" upper="1.3089" velocity="2.0"/>
       <dynamics damping="${0.5*b}" friction="0"/>
     </joint>
     <gazebo reference="${prefix}/wrist_yaw_joint">
